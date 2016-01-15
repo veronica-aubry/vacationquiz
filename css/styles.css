@@ -1,17 +1,21 @@
 #beachResult{
   display: none;
+  text-align: center;
 }
 
 #shackResult{
   display: none;
+  text-align: center;
 }
 
 #forestTempleResult{
   display: none;
+  text-align: center;
 }
 
 #apartmentResult{
   display: none;
+  text-align: center;
 }
 
 #question2{
@@ -30,10 +34,35 @@
   display: none;
 }
 
-.container {
-  max-width: 600px;
+#quiz {
+  max-width: 500px;
 }
 
 .next {
   color: #0198E1;
+
+}
+
+.header {
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding-top: 80px;
+  padding-left: 100px;
+  text-shadow: rgb(3, 3, 3) 4px 4px 4px;
+}
+
+.container {
+  margin-top: 30px;
+  background-color: white;
+}
+
+li:hover {
+  text-decoration:underline;
+  cursor: pointer;
 }
