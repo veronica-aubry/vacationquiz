@@ -11,107 +11,122 @@
 </head>
 
 <body>
+  <div class="container">
 
-  <form id="form">
-    <fieldset id="question1">
-      <p>Which of the following sounds like your ideal vacation activity?<p>
-      <div class="radio">
-        <label><input type="radio" name="question1" value="activityAdventuring">Adventuring in the wilderness</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question1" value="activityCocktails">Cocktails on the beach</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question1" value="activityEat">Eating a lot of great food with friends</label>
-      </div>
-    </fieldset>
+    <div id="questions">
+      <form id="form">
 
-    <fieldset id="question2">
-      <p>How would you describe yourself?<p>
-      <div class="radio">
-        <label><input type="radio" name="question2" value="describeOffbeat">Offbeat</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question2" value="describeTired">Tired</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question2" value="describeContent">Generally content and well-adjusted</label>
-      </div>
-    </fieldset>
+        <fieldset id="question1">
+          <p>Which of the following sounds like your ideal vacation activity?<p>
+          <div class="radio">
+            <label><input type="radio" name="question1" value="activityAdventuring">Adventuring in the wilderness</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question1" value="activityCocktails">Cocktails on the beach</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question1" value="activityEat">Eating a lot of great food with friends</label>
+          </div>
+          <ul class="pager">
+            <li class="next" id="toQuestion2">Next</li>
+        </fieldset>
 
-    <fieldset id="question3">
-      <p>Which of these men would you rather have as your father?<p>
-      <div class="radio">
-        <label><input type="radio" name="question3" value="father1"><img src="img/father1.jpg"</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question3" value="father2"><img src="img/father2.jpg"</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question3" value="father3"><img src="img/father3.jpg"</label>
-      </div>
-    </fieldset>
-
-    <fieldset id="question4">
-      <p>What will you dream about tonight?<p>
-      <div class="radio">
-        <label><input type="radio" name="question4" value="dreamShapes">Abstract shapes that seem to be hiding something </label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question4" value="dreamTraffic">The last person you cut off in traffic</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question4" value="dreamVoid"></label>
-      </div>
-    </fieldset>
-
-    <fieldset id="question5">
-      <p>What did she take from you?<p>
-      <div class="radio">
-        <label><input type="radio" name="question5" value="take1">Your idenity</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question5" value="take2">Kitchen appliances</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="question5" value="take3">Everything</label>
-      </div>
-    </fieldset>
-    <button type="submit" class="btn btn-default">Submit</button>
-  </form>
+        <fieldset id="question2">
+            <p>How would you describe yourself?<p>
+            <div class="radio">
+              <label><input type="radio" name="question2" value="describeOffbeat">Offbeat</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="question2" value="describeTired">Tired</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="question2" value="describeContent">Generally content and well-adjusted</label>
+            </div>
+            <ul class="pager">
+              <li class="next" id="toQuestion3">Next</li>
+          </fieldset>
 
 
-<div id="beachResult">
-  <img src="img/beach.jpg">
-  <p>Your ideal vacation retreat is this awesome house on Newport Beach! Amenities include a dishwasher, laundry room, an almost tangible sense of white millionaire ennui and a kitchen stocked only with ingredients for acai bowls to help you blend in with the locals.
-  <br>
-  Contact 928-2039 for information about renting this location.</p>
-</div>
+            <fieldset id="question3">
+              <p>Which of these men would you rather have as your father?<p>
+              <div class="radio">
+                <label><input type="radio" name="question3" value="father1"><img src="img/father1.jpg"></label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question3" value="father2"><img src="img/father2.jpg"></label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="question3" value="father3"><img src="img/father3.jpg"></label>
+                <ul class="pager">
+                <li class="next" id="toQuestion4">Next</li>
+              </div>
+            </fieldset>
 
-<div id="shackResult">
-  <img src="img/shack.jpg">
-  <p>Based on our complicated alogorithms, your perfect vacation spot is this one of a kind, Shrek-themed cabin. Don't blame us; the algorithm has chosen. This shack is now yours. It's always been yours.
-  <br>
-  Contact 928-2039 for information about demolishing or disowning this location.
-   </p>
-</div>
 
-<div id="forestTempleResult">
-  <img src="img/foresttemple.png">
-  <p>Based on your zest for adventure, you would love staying at the Forest Temple. Just cling to the walls to get past the minotaur.
-  <br>
-  Contact 928-2039 to report any smashed pottery.
-  </p>
-</div>
+        <fieldset id="question4">
+          <p>What will you dream about tonight?<p>
+          <div class="radio">
+            <label><input type="radio" name="question4" value="dreamShapes">Abstract shapes that seem to be hiding something </label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question4" value="dreamTraffic">The last person you cut off in traffic</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question4" value="dreamVoid"></label>
+            <ul class="pager">
+              <li class="next" id="toQuestion5">Next</li>
+          </div>
+        </fieldset>
 
-<div id="apartmentResult">
-  <img src="img/apartment.jpg">
-  <p>Congrats! This quiz was a test to see if I'd want to live with you. You passed! Arrangements were made to permanently transfer all of your belongings to my apartment the instant you pressed submit. See you soon!
-  <br>
-  There is no one you can contact now.
-  </p>
-</div>
+        <fieldset id="question5">
+          <p>What did she take from you?<p>
+          <div class="radio">
+            <label><input type="radio" name="question5" value="take1">Your idenity</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question5" value="take2">Kitchen appliances</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question5" value="take3">Everything</label>
+          </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </fieldset>
+      </form>
+    </div>
 
+
+    <div id="beachResult">
+      <img src="img/beach.jpg">
+      <p>Your ideal vacation retreat is this awesome house on Newport Beach! Amenities include a dishwasher, laundry room, an almost tangible sense of white millionaire ennui and a kitchen stocked only with ingredients for acai bowls to help you blend in with the locals.
+      <br>
+      Contact 928-2039 for information about renting this location.</p>
+    </div>
+
+    <div id="shackResult">
+      <img src="img/shack.jpg">
+      <p>Based on our complicated alogorithms, your perfect vacation spot is this one of a kind, Shrek-themed cabin. Don't blame us; the algorithm has chosen. This shack is now yours. It's always been yours.
+      <br>
+      Contact 928-2039 for information about demolishing or disowning this location.
+       </p>
+    </div>
+
+    <div id="forestTempleResult">
+      <img src="img/foresttemple.png">
+      <p>Based on your zest for adventure, you would love staying at the Forest Temple. Just cling to the walls to get past the minotaur.
+      <br>
+      Contact 928-2039 to report any smashed pottery.
+      </p>
+    </div>
+
+    <div id="apartmentResult">
+      <img src="img/apartment.jpg">
+      <p>Congrats! This quiz was a test to see if I'd want to live with you. You passed! Arrangements were made to permanently transfer all of your belongings to my apartment the instant you pressed submit. See you soon!
+      <br>
+      There is no one you can contact now.
+      </p>
+    </div>
+
+  </div>
 
 </body>
 

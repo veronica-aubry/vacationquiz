@@ -13,3 +13,27 @@
 #apartmentResult{
   display: none;
 }
+
+#question2{
+  display: none;
+}
+
+#question3{
+  display: none;
+}
+
+#question4{
+  display: none;
+}
+
+#question5{
+  display: none;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.next {
+  color: #0198E1;
+}
