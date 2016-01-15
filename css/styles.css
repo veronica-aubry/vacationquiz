@@ -1,7 +1,11 @@
-#picture1{
+#beachResult{
   display: none;
 }
 
-#picture2{
+#shackResult{
+  display: none;
+}
+
+#forestTempleResult{
   display: none;
 }
