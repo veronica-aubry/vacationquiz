@@ -18,10 +18,6 @@ _Personality quiz that uses jQuery events to hide a show destinations based on u
 
 _All results may be temporarily visible while page is loading._
 
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
 ## Technologies Used
 
 _branching in JQuery and JavaScript_
